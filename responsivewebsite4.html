@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<style type="text/css">
+  .navbar-toggle {
+  float: left !important;
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+.modal-nav-content {
+  width: 100%;
+  height: auto;
+}
+
+.modal-nav-body {
+  margin-top: 100px; 
+}
+
+.modal-nav-body ul {
+  list-style-type: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.modal-nav-body ul li {
+  text-align: center;
+  font-size: 130%;
+  padding: 8px;
+  text-transform: uppercase;
+}
+.img{
+      background-image: url(https://s3-img.pixpa.com/com/large/14632/1523801619-885308-img-2263.jpg);
+      background-size: cover;
+       
+       width: 100%;
+       height: 800px;
+    }
+    @media only screen and (max-width: 600px) {
+      .img{
+        width:auto;
+        height:750px;
+        
+        background-position: center; 
+      }
+    }
+    .text-block {
+  position: absolute;
+  top:40%;
+  right: 20px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size:35px;
+  background-color:transparent;
+  color:white;
+  padding-left:20px;
+  padding-right:20px;
+}
+.text-block1{
+  color:white;
+  font-weight: 600;
+ position: absolute;
+  bottom: 60px;
+  left: 40px;
+}
+/*.box input[type="text"],.box input[type="password"]{
+border:0;
+background:none;
+
+display: block;
+margin:20px auto;
+text-align: center;
+border:2px solid black;
+
+padding: 14px 10px;
+width: 200px;
+outline: none;
+
+border-radius: 24px;
+transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+width: 280px;
+border-color:red;
+
+}*/
+.box{
+  width:300px;
+  padding: 40px;
+  position: absolute;
+  top:80%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  background:transparent;
+  text-align: center;
+}
+.box h1{
+  color:white;
+
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type="text"],.box input[type="password"]{
+  border:0;
+  background:none;
+  display: block;
+  margin:20px auto;
+  text-align: center;
+  border:2px solid blue;
+
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+  width: 280px;
+  border-color:#2ecc71;
+}
+.button{
+  width: 200px;
+  /*margin:20px auto;*/
+  border-radius: 24px;
+  /*background:transparent;*/
+  color: white;
+  border-color:white;
+  padding: 14px 10px;
+  cursor: pointer;
+  /*background-color:transparent;*/
+
+}
+input::placeholder{
+  color:white;
+  font-size: 20px;
+}
+
+    @media only screen and (max-width: 600px) {
+      
+      .text-block{
+        font-size:28px;
+        color: white;
+      } 
+      .box{
+        top:90%;
+        left:40%;
+      }
+      
+      
+  }
+  .img1{
+    background-image:     linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url(https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/2.jpg);
+    background-size: cover;
+    width: 100%;
+    height:400px;
+    position:top-center;
+    /*filter: grayscale(100%);*/
+  }
+  @media only screen and (max-width: 600px) {
+    .img1{
+      margin-top: 20px;
+      width:auto;
+      height:700px;
+    }
+    .img1 h1{
+      font-size: 15px;
+    }
+    
+  }
+  .images-part{
+  margin-top: 50px;
+}
+.container-a {
+  position: relative;
+  width: 100%;
+  /*max-width: 300px;*/
+}
+.centered {
+  position: absolute;
+  color:white;
+  letter-spacing: 2px;
+  font-size: 30px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.grab {cursor: -webkit-grab; cursor: grab;}
+
+.overlay {
+  position:absolute; 
+  bottom: 30%; 
+  top:20%;
+  left:10%;
+  border:1px solid white;
+  /*background: rgb(0, 0, 0);*/
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; 
+  height:60%;
+  width:80%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding-top:40px;
+  text-align: center;
+  cursor: 
+  /*display:inline-block;*/
+}
+.container-a:hover .overlay {
+  opacity:1;
+}
+
+.carousel-inner > .item > img {
+  width:100%;
+  height:400px;
+}
+.zoom {
+  
+  transition: transform .2s;
+  /*width:150px;*/
+  
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 
+  -webkit-transform: scale(1.5); /* Safari 3-8 */ 
+  transform: scale(1.5); 
+  color: white;
+  /*background-color: ;*/
+}
+ .column1 {
+  margin-top: 20px;
+  float: left;
+  width:30%;
+  font-size: 13px;
+  color: white;
+  padding-left:15px;
+  height:15%; /* Should be removed. Only for demonstration */
+}
+.column2{
+  margin-top: 20px;
+    float: left;
+    width: 70%;
+    padding-left: 13px;
+    height: 15%;
+    font-size: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .column2{
+    font-size: 15px;
+    /*width:50%;*/
+  }
+  /*.column1{
+    width:30%;
+  }*/
+}
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.conclusion{
+  background-color: black;color:white;width:100%;height:400px;
+  margin-top: 40px;
+
+}
+@media only screen and (max-width: 600px) {
+  .conclusion{
+    height: 700px;
+  }
+}
+/*.modal {
+  color: black;
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 70px; 
+  left: 0;
+  top: 0;
+  width:40%; 
+  height: 100%; 
+  overflow: auto;
+  margin:auto;
+  
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  
+  margin:auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+}
+
+*/
+/*.close {
+  color:black;
+  float: right;
+  
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}*/
+/*@media only screen and (max-width: 600px) {
+    .modal{
+        width: 60%;
+    }
+}*/
+
+
+/*-----------cards part-----*/
+.cards{
+width: 100%;
+margin: 0 auto;
+display: flex;
+background-color: #fff;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+overflow: hidden;
+/*margin-left: 10px;*/
+        }
+    
+.card{
+    overflow: hidden;     
+background: #fff;
+border:2px solid red;
+justify-content: space-evenly;
+display: block;
+position: relative;
+margin: 1em;
+/*font-size: 0.9rem;*/
+margin-top: 20px;
+padding: 2em;
+width: 300px;
+/*min-width: 250px !important;*/
+transition: all ease 0.5s;
+        }
+.card-box{
+width: 295px;
+height:100px;
+margin: -7px;
+
+border:1px solid grey;
+
+        }
+.c-body{
+align-items: center;
+text-align: center;
+font-family:poppings;
+font-weight: 900;
+
+font-size:18px; 
+
+
+        }
+.card:hover{
+  background-color:white;
+}
+.c-body:hover{
+  color: white;
+}
+.flip-box {
+  background-color: transparent;
+  width:294px;
+  height:98px;
+  border: 2px solid grey;
+  perspective: 1000px;
+  overflow: hidden;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color:white;
+  color:black;
+}
+
+.flip-box-back {
+  /*background-color:black;*/
+  color:red;
+  font-family: 'Comic Sans MS';
+  transform: rotateY(180deg);
+
+  /*font-size: 18px;*/
+}
+@media only screen and (max-width: 600px) {
+  .card-box{
+      width: 270px;
+  }
+  .flip-box{
+    width: 270px;
+
+  }
+}
+/*-------------end*/
+/*#my{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  scroll-behavior: smooth;
+}
+
+#my:hover {
+ background-color: black;
+ color: white;
+
+}
+
+*/
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color:red;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    /*padding-right: 10px;*/
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+</style>
+</head>
+<body>
+<div class="img">
+<nav class="navbar navbar-default navbar-fixed-top navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#"><h1 style="font-size:40px;color:black;">VAGABOND</h1></a>
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="modal" data-target="#nav-modal" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="font-size:15px;">
+            <li class="nav-item ">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#" >About</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Trips
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="font-size:15px;">
+                  <a class="dropdown-item" href="#">with family</a>
+                  <a class="dropdown-item" href="#">with friends</a>
+            <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">alone</a>
+            </div>
+            </li>
+            
+        </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" placeholder="search" >
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+
+  </div>
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-nav-content">
+      <div class="modal-nav-body">
+        <ul>
+          <li>Brand</li>
+          <li>Home</li>
+          <li>Tour</li>
+          <li>News</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="text-block">
+        <p style="text-transform: uppercase;">enjoy your<br> dream vacation</p>
+</div>
+    <form class="box">
+        <div class="text-block1">
+
+          <input  type="text" placeholder="Enter Name">
+          <input  type="text" placeholder="Enter e-mail" >
+
+          <button  type="button" class="button" style="background-color:red;font-size: 15px;">SUBSCRIBE</button>
+       </div>
+    </form>
+    
+</div>
+
+</div>
+<!-- ---------2nd part -->
+<!-- <div class="container" style="margin-top: 50px;">
+<div class="col-sm-12">
+  <div class="col-sm-8">
+    <img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/2.jpg" class="img-fluid">
+  </div>
+  <div class="col-sm-4">
+    <center><span class="cont" style="font-size:40px;">WHAT <span style="color: red";>WE DO</span></span></center>
+    <center><h6 style="float:right;font-size: 20px;">Vivamus sed porttitor felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Sed lorem enim,</h6></center>
+    <h4 style="float: right;color: red;margin-top: 30px;">READ MORE</h4>
+  </div>
+</div>
+
+</div>
+ -->
+ <!-- ---------2nd part -->
+<div class="container" style="margin-top: 50px;">
+<div class="col-sm-12">
+  <div class="col-sm-8">
+    <img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/2.jpg" class="img-fluid">
+  </div>
+  <div class="col-sm-4">
+    <center><span class="cont" style="font-size:40px;">WHAT <span style="color: red";>WE DO</span></span></center>
+    <center><h6 style="float:right;font-size: 20px;">Vivamus sed porttitor felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Sed lorem enim,</h6></center>
+    <h4 style="float: right;color: red;margin-top: 30px;">READ MORE</h4>
+  </div>
+</div>
+
+</div>
+<!-- -------3rd part -->
+<div class="container" style="margin-top: 50px;">
+  <div class="col-sm-12">
+    <div class="col-sm-6">
+      <span style="font-size: 40px;">WE <span style="color: red;">OFFER</span></span>
+      <p style="font-size: 20px;margin-top: 20px;">Vivamus sed porttitor felis. Pellentesque habitant<br> morbi tristique senectus et netus et malesuada fames<br> ac turpis egestas.Sed lorem enim,</p>
+      <h4 style="float:left;color: red;margin-top: 30px;">READ MORE</h4>
+    </div>
+    <div class="col-sm-6">
+      <img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/1.jpg" class="img-fluid">
+    </div>
+  </div>
+</div>    
+<!-- --------end 3rd part -->
+<!-- ------4th part -->
+<div class="img1" style="margin-top: 50px">
+  <div class="col-sm-12" style="margin-top: 50px">
+    <div class="container">
+    <div class="col-sm-3" style="margin-top: 60px">
+      
+      <center><i class="fa fa-smile-o" style="font-size:48px;color:red"></i></center>
+      <h1 style="font-size:30px;color: white;text-align: center;">5,100</h1>
+      <h4 style="font-size: 15px;color: white;text-align: center;">HAPPY CLIENTS</h4>
+    </div>
+    <div class="col-sm-3"  style="margin-top: 60px">
+      
+      <center><i class="fa fa-plane" style="font-size:48px;color:red"></i></center>
+      <h1 style="font-size:30px;color: white;text-align: center;">971</h1>
+      <h4 style="font-size: 15px;color: white;text-align: center;">AMAZING TOURS</h4>
+    </div>
+        <div class="col-sm-3" style="margin-top: 60px">
+          
+          <center><i class="fas fa-user-friends" style='font-size:48px;color:red'></i></center>
+      <h1 style="font-size: 30px;color: white;text-align: center;">21</h1>
+      <h4 style="font-size: 15px;color: white;text-align: center;">PROFFESIONAL AGENTS</h4>
+        </div>
+        <div class="col-sm-3" style="margin-top: 60px">
+          
+          <center><i class="fa fa-envelope" style="font-size:48px;color:red"></i></center>
+      <h1 style="font-size: 30px;color: white;text-align: center;">27</h1>
+      <h4 style="font-size: 15px;color: white;text-align: center;">QUESTIONS ANSWERED</h4>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- --------end 4th part -->
+<div class="cards">
+      <div class="col-sm-3 card">
+          <div class="card-box">
+              <div class="c-body">
+                   <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <!-- <i class="fa fa-leaf" style="font-size:48px;color:black;margin-top:10px;"></i><br>Best Equipment -->
+                                <img src="https://c0.wallpaperflare.com/preview/979/961/156/adventure-travel-hiking-mountain.jpg" class="img-responsive">
+                             </div>
+                            <div class="flip-box-back" style="margin-top: 15px;">
+                                <span>“Live with no excuses & travel with no regrets” </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <!-- </div>  -->
+      <div class="col-sm-3 card">
+          <div class="card-box">
+            <div class="c-body">
+                <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <!-- <i class="material-icons" style="font-size:48px;color:black;margin-top: 15px;">crop</i><br>Best Equipment -->
+                                <img src="https://images.theconversation.com/files/271799/original/file-20190430-136810-1mceagq.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop" class="img-responsive">
+                             </div>
+                            <div class="flip-box-back" style="margin-top:15px;">
+                                <span >“People don't take trips, trips take people.”</span>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div> -->
+            </div>
+        </div>
+           
+      </div>
+      
+      <div class="col-sm-3 card">
+         <div class="card-box">
+            <div class="c-body">
+                <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="https://c4.wallpaperflare.com/wallpaper/927/1015/803/arunsphotography-bike-trips-red-and-black-road-trips-wallpaper-preview.jpg" class="img-responsive">
+                             </div>
+                            <div class="flip-box-back" style="margin-top:25px;">
+                                <span>“Don't Quit Your Day Dream.”</span>
+                            </div>
+                        </div>
+                    </div>
+              
+            </div>
+         </div>
+      </div>
+    </div>
+<!-- ----------------5th part--- -->
+<div class="main1" style="margin-top: 50px;">
+  <center><h1>BEST <span style="color: red;">OFFERS</span></h1></center>
+</div>
+<!-- ------------end 5th part -->
+<!-- 6th part -->
+<div class="images-part">
+    <div class="col-sm-12">
+    
+        <div class="col-sm-3" style="margin-top: 20px;">
+        
+            <div class="container-a">
+                  <img src="https://c4.wallpaperflare.com/wallpaper/161/296/845/nature-sea-water-turquoise-wallpaper-preview.jpg" class="img-responsive" style="width: 350px;height:200px;opacity: 0.8;">
+                  <div class="centered"><b>SPAIN</b></div>
+
+                  <div class="overlay"><p class="grab">8 days</p></div>
+            </div>
+            
+            </div>
+            <div class="col-sm-3" style="margin-top: 20px;">
+              <div class="container-a">
+                  <img src="https://c4.wallpaperflare.com/wallpaper/213/786/396/8k-uhd-palm-tree-sandy-beach-shore-wallpaper-preview.jpg" class="img-responsive" style="width: 350px;height:200px;">
+                  <div class="centered"><b>ROME</b></div>
+                  <div class="overlay"><p class="grab">8 days</p></div>
+               </div>
+            
+            </div>
+        
+            <div class="col-sm-3" style="margin-top: 20px;">
+              <div class="container-a">
+                <img src="https://c4.wallpaperflare.com/wallpaper/299/901/190/beach-indian-ocean-sand-sandy-beach-wallpaper-preview.jpg" class="img-responsive" style="width: 350px;height:200px;">
+                  <div class="centered"><b>MALDIVES</b></div>
+                  <div class="overlay"><p class="grab">8 days</p></div>
+              </div>
+            
+            </div>
+          <div class="col-sm-3" style="margin-top: 20px;">
+              <div class="container-a">
+                  <img src="https://c4.wallpaperflare.com/wallpaper/561/987/812/vacation-sandy-beach-water-crystal-clear-wallpaper-preview.jpg" class="img-responsive" style="width: 350px;height:200px;">
+                  <div class="centered"><b>ITALY</b></div>
+                  <div class="overlay"><p class="grab">8 days</p></div>
+                 </div>
+            
+            
+            </div>
+        </div>    
+        
+  </div>  
+
+<!-- ---------------end 6th part -->
+<!-- --------7th part -->
+<h1 style="text-align: center;font-size: 45px;"><b>WHAT OUR <span style="color:red">PEOPLE SAYS</span></b></h1>
+<div class="container">
+<div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
+
+  <!--Controls-->
+    <div class="controls-top" style="margin-top:30px;">
+      <center><a class="btn-floating" href="#carousel-example-multi" data-slide="prev"><i style="font-size: 48px;" 
+        class="fas fa-chevron-left"></i></a>
+      <a class="btn-floating" href="#carousel-example-multi" data-slide="next"><i style="font-size: 48px;" 
+        class="fas fa-chevron-right"></i></a></center>
+    </div>
+  <!--/.Controls-->
+
+  <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+        <li data-target="#carousel-example-multi" data-slide-to="2"></li>
+       <!--  <li data-target="#carousel-example-multi" data-slide-to="3"></li>
+        <li data-target="#carousel-example-multi" data-slide-to="4"></li>
+        <li data-target="#carousel-example-multi" data-slide-to="5"></li> -->
+    </ol>
+  <!--/.Indicators-->
+
+  <div class="carousel-inner v-2" role="listbox">
+
+    <div class="carousel-item active" style="margin-top: 25px;">
+      <div class="col-12 col-md-4">
+        <div class="card mb-2">
+          <div class="zoom">
+              <img class="card-img-top" src="https://imageproxy.themaven.net//https%3A%2F%2Fwww.biography.com%2F.image%2FMTcxNDEzMTU5NzM3ODI5MzU4%2Frachel-haircut-gettyimages-138427199.jpg"
+              alt="Card image cap" class="img-fluid" style="height: 200px;">
+            </div>  
+      
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" style="margin-top: 25px;">
+      <div class="col-12 col-md-4">
+        <div class="card mb-2">
+          <div class="zoom">
+              <img class="card-img-top" src="https://img.etimg.com/thumb/msid-76368882,width-650,imgsize-175512,,resizemode-4,quality-100/.jpg" class="img-fluid" style="height: 200px;">
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" style="margin-top: 25px;">
+      <div class="col-12 col-md-4">
+        <div class="card mb-2">
+          <div class="zoom">
+              <img class="card-img-top" src="https://wallpaperaccess.com/full/275961.jpg"
+               alt="Card image cap" class="img-fluid" style="height: 200px;">
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" style="margin-top: 25px;margin-left: 10px;">
+      <div class="col-12 col-md-4">
+        <div class="card mb-2">
+          <div class="zoom">
+              <img class="card-img-top" src="https://freedesignfile.com/upload/2016/12/Winter-outdoor-lovely-girl-HD-picture-01.jpg"
+               alt="Card image cap" class="img-fluid" style="height: 200px;">
+            </div>   
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" style="margin-top: 25px;margin-left: 10px;">
+      <div class="col-12 col-md-4">
+        <div class="card mb-2">
+          <div class="zoom">
+              <img class="card-img-top" src="https://media.glamour.com/photos/5d9cc18b617c7b0009d5cc7d/master/pass/0910-bigbtyMillie_l_s_r.jpg"
+              alt="Card image cap" class="img-fluid" style="height: 200px;">
+            </div>  
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" style="margin-top: 25px;margin-left: 10px;">
+      <div class="col-12 col-md-4">
+        <div class="card mb-2">
+          <div class="zoom">
+          <img class="card-img-top" src="https://wallpapercave.com/wp/wp2976308.jpg"
+            alt="Card image cap" class="img-fluid" style="height: 200px;">
+            <div class="zoom">
+        </div>
+      </div>
+    </div> 
+</div>
+  </div>
+</div>
+</div>
+<script>
+  $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+
+  for (var i=0;i<1;i++) {
+    next=next.next();
+    if (!next.length) {
+      next=$(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+  }
+});
+</script>
+<!-- -------end 7th part -->
+<!-- ----start 8th part-- -->
+<center ><span style="font-size:50px;margin-top:60px;letter-spacing: 2px;"><b>Latest <span style="color: red">NEWS</span></b></span></center>
+<!-- <div class="container"> -->
+  <div class="col-sm-12">
+    <div class="col-sm-5">
+      <div class="col-sm-12" style="margin-top: 30px;">
+        <div class="column1" style="background-color: red;">18<hr>sep</div>
+            <div class="column2">
+                 Curabitur mattis<br><i class="fa fa-clock-o" style="font-size:20px;color:red"></i>  5.00pm-7.30pm<br>
+                    <i class="fa fa-map-marker" style="font-size:20px;color:red"></i> ITALY    
+            </div>
+      </div><br>
+      <div class="col-sm-12" style="margin-top: 30px;">
+        
+        <div class="column1" style="background-color: red;">18<hr>sep</div>
+            <div class="column2">
+                 Curabitur mattis<br><i class="fa fa-clock-o" style="font-size:20px;color:red"></i>  5.00pm-7.30pm<br>
+                    <i class="fa fa-map-marker" style="font-size:20px;color:red"></i> FRANCE    
+            </div>
+
+      </div><br>
+      <div class="col-sm-12" style="margin-top: 30px;">
+        <div class="column1" style="background-color: red;">18<hr>sep</div>
+            <div class="column2">
+                 Curabitur mattis<br><i class="fa fa-clock-o" style="font-size:20px;color:red"></i>  5.00pm-7.30pm<br>
+                    <i class="fa fa-map-marker" style="font-size:20px;color:red"></i> ROME    
+            </div>
+      </div>
+      <div class="col-sm-12" style="margin-top: 30px;">
+        <div class="column1" style="background-color: red;">18<hr>sep</div>
+            <div class="column2">
+                 Curabitur mattis<br><i class="fa fa-clock-o" style="font-size:20px;color:red"></i>  5.00pm-7.30pm<br>
+                    <i class="fa fa-map-marker" style="font-size:20px;color:red"></i> MALDIVES    
+            </div>
+      </div>
+    </div>
+    <div class="col-sm-7" style="margin-top: 40px;">
+      <img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/g1.jpg" class="img-responsive">
+    </div>
+  </div>
+</div>
+<!-- -------end 8th part -->
+<!-- ------9th part -->
+ <div class="conclusion" >
+  <div class="col-sm-12" style="margin-top: 40px;">
+    <div class="col-sm-4" style="font-size: 15px;margin-top: 20px;">
+      <span style="margin-top:30px;font-size:40px;">ABOUT US</span>
+      <p style="margin-top: 40px;">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. lacinia eget consectetur sed, convallis at tellus.tempus convallis quis ac lectus sit amet nisl tempus convallis quis ac lectus</p>
+    </div>
+    <div class="col-sm-4" style="font-size:20px;">
+      <h4>CONTACT US</h4>
+      <h5>Location</h5>
+      <p>0926k 4th block building, king Avenue, New York City.</p>
+      <h5>Phone:</h5>
+      <p>Phone : +121 098 8907 9987</p>
+      <p>Email : info@example.com</p>
+    </div>
+    <div class="col-sm-4">
+      <div class="col-sm-12">
+        <div class="column">
+          <a id="myBtn"><img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/g1.jpg" class="img-responsive" style="width:100%"></a>
+
+                        
+                        <div id="myModal" class="modal">
+
+                          
+                            <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <center><h1 style="color: red;">VAGABOND</h1></center>
+                                    <img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/g6.jpg" class="img-responsive">
+                                    <p style="font-size:15px;">Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis.</p>
+                            </div>
+
+                        </div>
+
+                        <script>
+                                
+                                var modal = document.getElementById("myModal");
+
+                                
+                                var btn = document.getElementById("myBtn");
+
+                                
+                                var span = document.getElementsByClassName("close")[0];
+
+                                
+                                btn.onclick = function() {
+                                  modal.style.display = "block";
+                                }
+
+                                
+                                span.onclick = function() {
+                                  modal.style.display = "none";
+                                }
+
+                                
+                                window.onclick = function(event) {
+                                  if (event.target == modal) {
+                                    modal.style.display = "none";
+                                  }
+                                }
+                        </script>
+
+                    
+        </div>
+        <div class="column">
+          <img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/g2.jpg" class="img-responsive" style="width:100%;">
+        </div>
+        <div class="column">  
+          <img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/g3.jpg" class="img-responsive" style="width: 100%;">
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="column">
+          <img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/g1.jpg" class="img-responsive" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/g2.jpg" class="img-responsive" style="width:100%;">
+        </div>
+        <div class="column">  
+          <img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/g3.jpg" class="img-responsive" style="width: 100%;">
+        </div>
+      </div>  
+      <div class="col-sm-12">
+        <div class="column">
+          <img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/g1.jpg" class="img-responsive" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/g2.jpg" class="img-responsive" style="width:100%;">
+        </div>
+        <div class="column">  
+          <img src="https://demo.w3layouts.com/demos_new/template_demo/18-09-2018/vagabond-demo_Free/837100370/web/images/g3.jpg" class="img-responsive" style="width: 100%;">
+        </div>
+      </div>          
+
+    </div>
+  </div>
+</div> 
+<!-- <button onclick="topFunction()" id="my" title="Go to top"><i class="fa fa-angle-double-up" style="font-size:20px;"></i></button> -->
+<!-- <script>
+
+var mybutton = document.getElementById("my");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+ -->
+<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+<script type="text/javascript">
+  /*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+</script>
+
+<!-- --------end 9th part -->
+
+
+
+</body>
